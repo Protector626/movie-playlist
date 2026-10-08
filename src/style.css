@@ -1,0 +1,104 @@
+
+section {
+background-color: rgb(214, 146, 0);
+width: auto;
+height: auto;
+
+
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    
+
+}
+
+h1{
+    color: white;
+    text-align: justify;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    display: flex;
+    text-align: justify;
+    font-size: 30px;
+}
+
+div.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 1200px;
+    width: 800px;
+    box-shadow: 20px 20px 50px blue;
+    border-radius: 30px;
+    border-color: white;
+    margin: 50px;
+    background-color: black;
+    border-bottom: 25px darkblue solid;
+
+
+
+}
+
+div.movieName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    color: white;
+    padding: 50px;
+    box-shadow: 20px 20px 50px red;
+    background-color: brown;
+    border-radius: 30px;
+    border-color: white;
+    margin: 100px;
+    border-bottom: 25px darkred solid;
+
+}
+
+img {
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+    
+}
+
+#squareBlocks {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+#title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#question {
+    color: white;
+    padding: 20px;
+    font-size: 60px;
+}
+
+small {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
