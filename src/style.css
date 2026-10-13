@@ -1,8 +1,16 @@
 
+main{
+    background-color: black;
+    width: 2000px;
+    height: 2000px;
+
+
+}
+
 section {
-background-color: rgb(214, 146, 0);
-width: auto;
-height: auto;
+    background-color: brown;
+    width: fit-content;
+    height: fit-content;
 
 
 }
@@ -21,6 +29,7 @@ h1{
     text-align: justify;
     font-size: 60px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
@@ -29,6 +38,7 @@ p {
     display: flex;
     text-align: justify;
     font-size: 30px;
+    
 }
 
 div.movie {
@@ -36,15 +46,12 @@ div.movie {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 25px;
     height: 1200px;
     width: 800px;
-    box-shadow: 20px 20px 50px blue;
-    border-radius: 30px;
-    border-color: white;
+    box-shadow: 20px 20px 50px black;
     margin: 50px;
     background-color: black;
-    border-bottom: 25px darkblue solid;
 
 
 
@@ -59,29 +66,32 @@ div.movieName {
     width: 500px;
     color: white;
     padding: 50px;
-    box-shadow: 20px 20px 50px red;
-    background-color: brown;
+    box-shadow: 20px 20px 50px black;
+    background-color: black;
     border-radius: 30px;
     border-color: white;
-    margin: 100px;
-    border-bottom: 25px darkred solid;
+    margin: 180px;
+
 
 }
 
 img {
-    width: 500px;
+    width: 400px;
     height: 800px;
     object-fit: cover;
     
 }
 
 #squareBlocks {
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 
 
 }
+
+
 
 #title {
     color: white;
@@ -102,3 +112,19 @@ small {
     font-size: 30px;
 }
 
+#movie1 {
+    border: 20px solid darkblue;
+    border-bottom: 80px solid darkblue;
+}
+
+#movie2 {
+    border: 20px solid darkgreen;
+    border-bottom: 80px solid darkgreen;
+
+}
+
+#movie3 {
+    border: 20px solid darkorange;
+    border-bottom: 80px solid darkorange;
+
+}
